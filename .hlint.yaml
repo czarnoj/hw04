@@ -1,0 +1,13 @@
+# HLint configuration file
+##########################
+
+- functions:
+  - {name: head, within: []} # head can only appear in no modules
+  - {name: tail, within: []} 
+  - {name: Maybe.fromJust, within: []} 
+
+- ignore: {name: "Use head"}
+- ignore: {name: "Use mapM"}
+- ignore: {name: "Use first"}
+
+
