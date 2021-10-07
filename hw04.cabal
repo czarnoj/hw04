@@ -19,8 +19,8 @@ cabal-version:       >=1.10
 library
   exposed-modules:   AVL, Sat
   default-extensions:  ScopedTypeVariables, FlexibleInstances, RecordWildCards, TupleSections
-  build-depends:       base >=4.13 && <4.14 
-                     , QuickCheck==2.13.2
+  build-depends:       base >=4.14 
+                     , QuickCheck==2.14.2
                      , containers
                      , HUnit 
                      , random
